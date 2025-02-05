@@ -1,7 +1,7 @@
 {
-  "name": "mern-e-commerce",
+  "name": "diagon-alley",
   "version": "1.0.0",
-  "description": "MERN Stack E-Commerce Project",
+  "description": "MERN Stack Buy-Sell Project",
   "main": "index.js",
   "type": "module",
   "scripts": {

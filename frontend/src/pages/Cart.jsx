@@ -67,7 +67,7 @@ const Cart = () => {
                         {item.name}
                       </Link>
                       <div className="mt-2 text-sky-800">{item.brand}</div>
-                      <div className="mt-2 text-sky-900 font-bold">₹{item.price}</div>
+                      <div className="mt-2 text-sky-900 font-bold">${item.price}</div>
                     </div>
   
                     <div className="w-24">
@@ -98,7 +98,7 @@ const Cart = () => {
                 {/* Seller-wise Checkout */}
                 <div className="mt-6 p-6 rounded-lg bg-gradient-to-r from-sky-50 to-blue-50 border border-sky-200">
                   <h2 className="text-lg font-semibold text-sky-900 mb-3">
-                    Total for this seller: ₹{sellerTotal.toFixed(2)}
+                    Total for this seller: ${sellerTotal.toFixed(2)}
                   </h2>
                   <button
                     className="bg-gradient-to-r from-sky-400 to-blue-500 hover:from-sky-500 hover:to-blue-600 
